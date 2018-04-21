@@ -31,5 +31,5 @@ echo '
   <h1>Some text to enable scrolling</h1>
 </div>
 
-;'
+';
 ?>
