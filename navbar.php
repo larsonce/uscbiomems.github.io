@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+echo '
 
 <div class="container" style="background-color:#F44336;color:#fff;height:200px;">
   <h1>Bootstrap Affix Example</h1>
@@ -31,5 +31,5 @@
   <h1>Some text to enable scrolling</h1>
 </div>
 
-</html>
-
+;'
+?>
