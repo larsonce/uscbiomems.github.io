@@ -17,7 +17,15 @@
 	      /*line-height: 1.2;*/ 
 	      color: #333;
 		}
-	</style>
+		.affix {
+      		top: 0;
+      		width: 100%;
+     		z-index: 9999 !important;
+  		}
+  		.affix + .container-fluid {
+      		padding-top: 70px;
+  		}
+  	</style>
 </head>
 <body>
 <div class="container" style="background-color:#F44336;color:#fff;height:200px;">
@@ -27,7 +35,7 @@
   <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels.</p>
 </div>
 
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+<nav class="container navbar navbar-inverse" data-spy="affix" data-offset-top="197">
   <ul class="nav navbar-nav">
     <li class="active"><a href="#">Basic Topnav</a></li>
     <li><a href="#">Page 1</a></li>
